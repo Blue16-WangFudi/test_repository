@@ -51,11 +51,6 @@ public class AuthController {
         return ApiResponse.success("登录成功", response);
     }
 
-    @PostMapping("/signup")
-    public ApiResponse<LoginResponse> signup(@Valid @RequestBody LoginRequest request) {
-        LoginResponse response = authService.login(request);
-        return ApiResponse.success("登录成功", response);
-    }
 
     /**
      * 刷新JWT令牌接口
