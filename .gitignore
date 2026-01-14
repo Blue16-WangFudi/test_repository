@@ -1,56 +1,36 @@
-# Miscellaneous
+# Java build artifacts
 *.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
+*.jar
+*.war
+*.ear
 
-# IntelliJ related
+# Build output
+/target/
+/build/
+/out/
+
+# IDEs and editors
+.idea/
 *.iml
 *.ipr
 *.iws
-.idea/
+.vscode/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# Eclipse
+.project
+.classpath
+.settings/
 
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-/coverage/
+# OS files
+.DS_Store
+Thumbs.db
 
-# Symbolication related
-app.*.symbols
+# Logs
+*.log
 
-# Obfuscation related
-app.*.map.json
-
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
-
-# env.json
-env.json
-
-# Android签名相关敏感文件
-/android/key.properties
-/android/keystore/
+# Local env/secrets
+.env
+.env.*
+key.json
 *.keystore
 *.jks
-
-key.json
