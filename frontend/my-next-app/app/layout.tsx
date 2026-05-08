@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ECharts Basic Demo",
-  description: "A basic ECharts setup in Next.js",
+  title: "Todo List",
+  description: "A full-stack Todo List built with Next.js",
 };
 
 export default function RootLayout({
