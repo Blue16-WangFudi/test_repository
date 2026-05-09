@@ -1,0 +1,9 @@
+target/
+.mvn/apache-maven-*/
+.mvn/*.tar.gz
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.DS_Store
